@@ -1,8 +1,14 @@
-## Image scissor
+## Image Scissor
 
 ### General Idea
 
-The general idea of this project is that after loading the image, we finished the cost computation by implementing the cost function provided in the [course webpage](https://course.cse.ust.hk/comp5421/Password_Only/projects/iscissor/index.html)*. Every time when the user clicks a seed, we will update the path tree according to the Dijkstra's algorithm.
+The general idea of this project is that after loading the image, we finished the cost computation by implementing the cost function provided in the [course webpage](https://course.cse.ust.hk/comp5421/Password_Only/projects/iscissor/index.html). Every time when the user clicks a seed, we will update the path tree according to the Dijkstra's algorithm.
+
+
+### Reference Paper
+
+[Intelligent Scissors for Image Composition](https://github.com/jguoaj/intelligent-scissor/blob/master/mort-sigg95.pdf).
+
 
 ### Artifacts
 
@@ -16,7 +22,7 @@ Foreground Image One and its mask:
 
 Foreground Image Two and its mask:
 
-<img src = "./artifact/sf.jpg" width = "50%" height = "50%"><img src = "./artifact/sf_mask.png" width = "50%" height = "50%">
+<img src = "./artifact/sf.jpg" width = "25%" height = "25%"><img src = "./artifact/sf_mask.png" width = "25%" height = "25%">
 
 Background image:
 
