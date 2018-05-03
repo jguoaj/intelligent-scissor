@@ -52,13 +52,13 @@ After click on these two buttons, the image will be blurred. We provide a sample
 
 - Orignal Pic and its cost graph:
 
-<img src = "./blur/school.jpg" width = "40%" height = "40%"><img src = "./blur/school_costgraph.png" width = "50%" height = "50%">
+<img src = "./blur/school.jpg" width = "43%" height = "43%"><img src = "./blur/school_costgraph.png" width = "50%" height = "50%">
 
 - Blurring with 3*3 gaussian filters
 
-<img src = "./blur/school_blur3.png" width = "40%" height = "40%"><img src = "./blur/school_blur3_costgraph.png" width = "50%" height = "50%">
+<img src = "./blur/school_blur3.png" width = "43%" height = "43%"><img src = "./blur/school_blur3_costgraph.png" width = "50%" height = "50%">
 
 - Blurring with 5*5 gaussian filters
 
 
-<img src = "./blur/school_blur5.png" width = "40%" height = "40%"><img src = "./blur/school_blur5_costgraph.png" width = "50%" height = "50%">
+<img src = "./blur/school_blur5.png" width = "43%" height = "43%"><img src = "./blur/school_blur5_costgraph.png" width = "50%" height = "50%">
