@@ -38,16 +38,16 @@ We implemented two ```whistles``` for this project.
 
 - SnapSeed
 
-To snap the first seed near the edge, we find the nearest neighbor of the seed on the edge after the user clicks the first seed. We used ```CV::Canny``` to get the edge and then use ```L2 distance``` to meansure the space similarity. Update the position of the first seed each time when finding out a optimal point.
+To snap the first seed near the edge, we find the nearest neighbor of the seed on the edge after the user clicks the first seed. We used ```CV::Canny``` to get the edge and then use ```L2 distance``` to measure the space similarity. Update the position of the first seed each time when finding out an optimal point.
 
 - Blurring
 
-We include two gaussiFor blurring effect, and we use opencv Guassian filter. We adjust the Guassian filter kernel size and standard deviation to achieve different level of blurring effect. After opening the image, we could add this blurring effect using the interface of our IScissor.
+We include two gaussian for blurring effect, and we use opencv Gaussian filter. We adjust the Guassian filter kernel size and standard deviation to achieve different level of blurring effect. After opening the image, we could add this blurring effect using the interface of our IScissor.
 	```Tool -> Gaussian 3*3```
     ```Tool -> Gaussian 5*5```
 After click on these two buttons, the image will be blurred. We provide a sample with our school HKUST. You can see that different level of blurring effect has been achieved. Comparing two filters, we could see that larger kernel size induces stronger blurring effect. See pics.an blurring filters in the projects such that the user could apply anyone of them to compare the difference before and after blurring. ***Also we notice that if the blurring effect gets stronger, the cost gets lower.***
 
-- Orignal Pic and its cost graph:
+- Original Pic and its cost graph:
 
 <img src = "./blur/school.jpg" width = "43%" height = "43%"><img src = "./blur/school_costgraph.png" width = "50%" height = "50%">
 
